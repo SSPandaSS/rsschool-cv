@@ -7,6 +7,7 @@
 * Phone: +7 702 502-97-32
 * Email: boss.rinat.98@mail.ru
 * GitHub: SSPandaSS
+* Telegram: PandaRSS
 
 ## About Me
 I am 23 years old. I'm studying in the Povolzhskiy State University of Telecommunications and Informatics in Samara, Russia. I live to realize my own potential in every way.
