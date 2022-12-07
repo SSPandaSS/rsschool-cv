@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1800px;
+}
+
+.main-title {
+    background-color: aqua;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}

@@ -1,1 +1,2 @@
-# https://sspandass.github.io/rsschool-cv/cv
+# rsschool-cv
+https://sspandass.github.io/rsschool-cv/
