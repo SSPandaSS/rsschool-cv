@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/assets1/icons/Tigr.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">  
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <title>CV Rinat Sisenbaev</title>
 </head>
 
@@ -15,22 +16,114 @@
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                 <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="english" class="nav-link">English level</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English level</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="main container">
-        <div class="photo-fio">
+        <div class="heading">
             <img src="/assets1/pers-photo.jpg" alt="avatar" class="avatar">
-            <p class="full-name">Sisenbaev Rinat</p>
-            <p class="prof">Beginner Front-end developer</p>
+            <div class="heading-text">
+                <p class="full-name">Sisenbaev Rinat</p>
+                <h1 class="prof">Beginner Front-end developer</h1>
+            </div>
         </div>
+
+        <section class="contact" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="contact-list">
+                <li class="contact-item"><span>Location</span><br>
+                    Aqtobe, Kazakhstan</li>
+                <li class="contact-item"><span>Phone</span><br>
+                    +7 702 502-97-32</li>
+                <li class="contact-item"><span>Email</span><br>
+                    <a href="mailto:boss.rinat.98@mail.ru">boss.rinat.98@mail.ru</a></li>
+                <li class="contact-item"><span>GitHub</span><br>
+                    SSPandaSS</li>
+                <li class="contact-item"><span>Telegram</span><br>
+                    <a href="https://telegram.me/PandaRSS">PandaRSS</a></li>
+            </ul>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="section-title decor">About Me</h2>
+            <p class="about-text">
+                I am 23 years old. I'm studying in the Povolzhskiy State University of Telecommunications and Informatics
+                in Samara, Russia. I live to realize my potential in every way, so I don't talk much, instead I prefer to do what needs to be done.
+            </p>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class='skills-list'>
+                <p class='skill-html'>HTML</p>
+                <div class='level'>
+                    <div style='width: 60%'>60%</div>
+                </div>
+
+                <p class='skill-css'>CSS</p>
+                <div class='level'>
+                    <div style='width: 60%'>60%</div>
+                </div>
+
+                <p class='skill-js'>JavaScript</p>
+                <div class='level'>
+                    <div style='width: 25%'>25%</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="code" id="code">
+            <h2 class="section-title">Code example</h2>
+            <pre>
+                <code>
+                function createIncrementor(n) {
+                    return function(num) {
+                        return n + num
+                    }
+                }
+                
+                const addOne = createIncrementor(1)
+                const addTen = createIncrementor(10)
+                
+                console.log(addOne(10))
+                console.log(addTen(10))
+                </code>
+            </pre>
+        </section>
+
+
+        <section class="projects" id="projects">
+            <h2 class="section-title decor">Projects</h2>
+            <ul class="projects-list">
+                <li class="projects-item">
+                    <a href="https://sspandass.github.io/cars-hw/" class="project1" target="_blank">
+                        <img src="/assets1/project1.png" height="360" alt="Сars rent" class="projects-image">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="education" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="education-list">Courses
+                <li class="education-item">HTML Academy</li>
+            </ul>
+        </section>
+
+        <section class="english" id="english">
+            <h2 class="section-title">English level</h2>
+            <p class="english-lv">A2 (Pre-Intermediate)</p>
+            <div class="level">
+                <div style="width: 20%"></div>
+            </div>
+        </section>
     </main>
 
 
