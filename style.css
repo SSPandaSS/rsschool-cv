@@ -183,15 +183,15 @@ span {
 }
 
 .skill-html {
-    background-image: url("/assets1/icons/icon-html.svg");
+    background-image: url("./assets1/icons/icon-html.svg");
 }
 
 .skill-css {
-    background-image: url("/assets1/icons/icon-css.svg");
+    background-image: url("./assets1/icons/icon-css.svg");
 }
 
 .skill-js {
-    background-image: url("/assets1/icons/icon-js.svg");
+    background-image: url("./assets1/icons/icon-js.svg");
 }
 
 .level {
