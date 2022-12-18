@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -268,4 +272,25 @@ code {
 }
 
 
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #ffdd00;
+    height: 100px;
+    border-radius: 5px;
+}
 
+.footer-gitgub {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-year {
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+}
