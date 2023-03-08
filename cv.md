@@ -33,6 +33,7 @@ console.log(addTen(10))
 ```
 
 ## Experience
+* JS/FE Pre-School 2022Q4
 
 ## Education
 * Courses
