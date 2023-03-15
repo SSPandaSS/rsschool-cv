@@ -224,26 +224,31 @@ code {
 /* Projects */
 .projects {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .projects-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     list-style: none;
 }
 
 .projects-item {
+    width: 50%;
     margin: 0;
     padding: 2px;
 }
 
 
 .projects-image {
+    width: 90%;
+    height: 90%;
     border-radius: 5px;
 }
 
 .projects-image:hover {
-    box-shadow: 0 0 0 4px #ffdd00;
+    box-shadow: 0 0 5px 4px rgba(255, 221, 0, 75%);
     transition: all 0.3s;
 }
 
