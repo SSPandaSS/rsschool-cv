@@ -211,6 +211,18 @@ span {
     border-radius: 4px;
 }
 
+.level-html {
+    width: 60%;
+}
+
+.level-css {
+    width: 60%;
+}
+
+.level-js {
+    width: 25%;
+}
+
 /* Code */
 .code {
     width: 100%;
@@ -267,8 +279,12 @@ code {
     width: 100%;
 }
 
-.english-lv {
+.english-grade {
     font-size: 20px;
+}
+
+.level-eng {
+    width: 20%;
 }
 
 
